@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <title>EventTriz-Event Planner</title>
+</head>
+<body>
+  <nav style="position: fixed;
+  top: 0px; background-color: rgb(231, 139, 185)">
+    <div class="container">
+      <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+      <a href="index.html"><h1><img src="Eventtrizlogo.png" alt=""></h1></a>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li class="dropdown">
+          <a href="service.html" class="dropbtn">Services</a>
+          <div class="dropdown-content">
+            <a href="#">Wedding</a>
+            <a href="#">Birthday</a>
+            <a href="#">Conferences</a>
+            <a href="#">Sporting events</a>
+          </div> 
+        </li>
+   <li><a href="vendor.html">Locations</a></li>
+        <li><a href="eblog.html">Blogs</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contactus.html">Contact Us</a></li>
+       
+      </ul>
+      <div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="video-container">
+
+
+<img src="https://images.unsplash.com/photo-1653821355692-03666613499f?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="wedding_img" id="mainimg">
+
+    <div class="animated-text">
+      <h3>Welcome to EventTriz<p>The primary goal of our is to ensure<br> that an event runs smoothly and <br>successfully.</p>
+          <button class="login-btn" style="background-color: rgb(202, 98, 150);"><a href="contactus.html" style="text-decoration: none; color: white; ">Contact us</a></button>
+          <button class="sign-in-btn" style="background-color: rgb(202, 98, 150);"><a href="form.html" style="text-decoration: none; color: white;"> Enquiry Form</a></button></h3>
+    </div>
+  </div>
+
+  <div id="about-us">
+    <h1>About Us</h1>
+    <p>We are a passionate team dedicated to providing innovative solutions. Event management is a multifaceted discipline that involves the strategic planning and coordination of all aspects of an event. This includes budgeting, scheduling, venue selection, logistics, marketing, and execution. Events can vary widely in scope and nature, including corporate conferences, weddings, product launches, trade shows, concerts, and community festivals.</p>
+  </div><hr>
+  <div class="gall">
+<h1 style="text-align: center;">Gallery</h1></div>
+  <div class="gallery">
+
+    <div class="image-container" onclick="openLightbox('Live-Events-Special-Effects.jpg')">
+        <img src="https://images.pexels.com/photos/2034851/pexels-photo-2034851.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Image 1">
+    </div>
+    <div class="image-container" onclick="openLightbox('Female-friends-open-gift-boxes-with-a-pregnant-woman-at-a-baby-shower-1281042814_2125x1416-1024x683.jpeg')">
+        <img src="https://images.pexels.com/photos/3593432/pexels-photo-3593432.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Image 2">
+    </div>
+    <div class="image-container" onclick="openLightbox('Ganpati-Mandap-Decoration-With-Flowers.avif')">
+        <img src="https://images.pexels.com/photos/301977/pexels-photo-301977.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Image 3">
+    </div>
+    <div class="image-container" onclick="openLightbox('douglas-j-s-moreira-UFdLg0BX5aM-unsplash.jpg')">
+        <img src="https://images.pexels.com/photos/2060240/pexels-photo-2060240.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Image 4">
+    </div>
+    <div class="image-container" onclick="openLightbox('pexels-abet-llacer-919734.jpg')">
+        <img src="https://images.pexels.com/photos/2060239/pexels-photo-2060239.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Image 5">
+    </div>
+    <div class="image-container" onclick="openLightbox('Indian-Traditions39-Ceremony-506-Christopher-Brock-Photography.jpg')">
+        <img src="https://images.pexels.com/photos/9714788/pexels-photo-9714788.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Image 6">
+    </div>  
+</div>
+<div class="lightbox" id="lightbox" onclick="closeLightbox()">
+    <img id="lightbox-img" src="" alt="Enlarged Image">
+</div>
+<hr>
+<div class="ours">
+<h1>Our Services</h1></div>
+<div class="item-container">
+  <div class="item">
+      <img src="https://i.pinimg.com/originals/9b/c0/06/9bc006bd698211b8c328542960740bd7.gif" alt="Logo 1">
+      <p>Tradeshow Sales, Support & Management
+      </p>
+  </div>
+  <div class="item">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFHBfaIDVpe9VLFJoZ3nEduonw8WgJcuBinA&s" alt="Logo 2">
+      <p>Sponsorship Support & Fulfillment
+      </p>
+  </div>
+  <div class="item">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0SjOqsXH8yi_ldylK58kBpqPYqjbzv9PdHg&s" alt="Logo 1">
+      <p>Project Management & Administration
+      </p>
+  </div>
+  <div class="item">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1mHn6wJiJct1-4BK5TFe30RC88Mz7K4A3bQ&s" alt="Logo 2">
+      <p>Facility & Hotel Management
+      </p>
+  </div> <div class="item">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRcDo2FPSYqPjsgaUmHpCkXAXsm0LIHo3d_g&s" alt="Logo 1">
+      <p>Financial Management
+      </p>
+  </div>
+  <div class="item">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtIsEckFk_lTLzfIn34z8PnAFLDzdEXba5OQ&s" alt="Logo 2">
+      <p>Program Development & Speaker Management</p>
+  </div> 
+</div>
+<hr>
+<div class="titleb">
+<h1>Our Blogs</h1></div>
+<div class="card-container">
+  <div class="card">
+    <h2>Marriage</h2>
+    <p class="post-time">Published on: January 30, 2024</p>
+    <div class="category-label">live</div>
+    <img class="post-image" src="https://images.pexels.com/photos/1123254/pexels-photo-1123254.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Post Image 1">
+    <p>Content of the blog post goes here...</p>
+    <a href="#">Read more</a>
+  </div>
+  <div class="card">
+    <h2>Dj Night</h2>
+    <p class="post-time">Published on: January 31, 2024</p>
+    <div class="category-label">live</div>
+    <img class="post-image" src="https://images.pexels.com/photos/1763075/pexels-photo-1763075.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Post Image 2">
+    <p>Content of the blog post goes here...</p>
+    <a href="#">Read more</a>
+  </div>
+  <div class="card">
+    <h2>Holi Celebration</h2>
+    <p class="post-time">Published on: February 1, 2024</p>
+    <div class="category-label">live</div>
+    <img class="post-image" src="https://images.pexels.com/photos/1684187/pexels-photo-1684187.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Post Image 3">
+    <p>Content of the blog post goes here...</p>
+    <a href="#">Read more</a>
+  </div>
+</div>
+<footer class="footer">
+<h1>EventTriz</h1>
+<ul>
+<li>|<a href="privacy.html">Privacy </a> |</li>
+<li>|<a href="privacy.html">Services </a> |</li>
+<li>|<a href="privacy.html">Terms & Conditions</a> |</li>
+<li><a href="privacy.html">FAQs</a> |</li>
+<li>|<a href="privacy.html">About Us</a> |</li>
+
+</ul>
+
+<div class="social-icons">
+<img src="https://img.freepik.com/premium-vector/3d-vector-facebook-icon-social-media_721791-1528.jpg?size=338&ext=jpg&ga=GA1.1.1819120589.1727481600&semt=ais_hybrid" alt="Facebook">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/2048px-Instagram_logo_2016.svg.png" alt="Instagram">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_4N37TIgWC_QLpspNwGddZH8DhzljeYMFnA&s" alt="YouTube">
+</div>
+
+<div class="location">
+<p><i class="fas fa-map-marker-alt"></i> Our Location: EventTriz palace IT hub, pune , India</p>
+<p><i class="fas fa-map-marker-alt"></i> Evtentriz@gamil.com</p>
+</div>
+
+</footer>
+
+<script src="index.js"></script>
+</body>
+</html>

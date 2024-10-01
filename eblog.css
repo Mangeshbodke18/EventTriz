@@ -1,0 +1,278 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: transparent;
+  z-index: 1000;
+  padding: 20px 10px;
+  transition: background-color 0.5s ease;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8px); 
+}
+
+nav.scrolled {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h1 {
+  margin: 0;
+  color: white;
+  font-size: 24px;
+  display: flex;
+  align-items: center; 
+}
+
+nav h1 img {
+  width: 60px; 
+  height:60px; 
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+nav ul li {
+  margin-right: 20px;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+nav ul li:hover {
+  transform: scale(1.1);
+}
+
+nav ul li a:hover {
+  color: #3b2d2d;
+}
+
+.login-btn, .sign-in-btn {
+  background-color: #2eb3ae;
+  color: white;
+  padding: 5px 10px; 
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  font-size: 14px; 
+  margin-right: 10px;
+}
+
+.sign-in-btn {
+  margin-right: 30px;
+}
+
+.login-btn:hover, .sign-in-btn:hover {
+  background-color: #4d3a1a;
+}
+
+.login-icon, .sign-in-icon {
+  margin-right: 5px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #d44934;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: small;
+}
+
+.dropdown-content a:hover {
+  background-color: #ff664f;
+}
+
+
+.menu-icon {
+  display: none;
+  cursor: pointer;
+  font-size: 18px; 
+}
+
+@media screen and (max-width: 768px) {
+  nav ul {
+    display: none;
+    width: 35%;
+    flex-direction: column;
+    position: absolute;
+    top: 20px;
+   
+    margin-top: 12px;
+    background-color: #d44934;
+  }
+  .dropdown-content a {
+  background-color: #ff664f;
+  }
+  nav ul.show {
+    display: flex;
+ 
+  }
+
+  nav ul li {
+  margin-top: 10px;
+  text-align: center;
+  }
+
+  .menu-icon {
+    display: block;
+    order: -1;
+    margin-left: 10px;
+  }
+
+  .container {
+    position: relative;
+  }
+
+  nav h1 {
+    justify-content: center; 
+  }
+
+  nav h1 img {
+    width: 30px; 
+    height: 30px; 
+    margin-left: 50px;
+  }
+
+  .login-btn, .sign-in-btn {
+    padding: 5px; 
+    font-size: 6px;
+  
+   
+  }
+
+  .animated-text h3 {
+    font-size: 8px; 
+  }
+
+  .buttons a {
+    padding: 8px 15px; 
+    font-size: 12px; 
+  }
+ .animated-text {
+      top: 67%;
+    }
+
+#about-us {
+width: auto;
+text-align: center;
+
+}
+#about-us p {
+font-size: small;
+}
+#about-us h1 {
+font-size: small;
+
+
+}
+
+}
+
+
+header{
+    text-align: center;
+    background-color:purple;
+    color: white;
+    padding: 10px;
+    
+}
+h2{
+    color: black;
+}
+h1{
+    text-decoration: underline ;
+    outline-offset: 0cap;
+    
+}
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  .card img {
+    width: 85%;
+    height: 40s0px;
+    border-bottom: 1px solid #e0e0e0;
+    margin-left: 10%;
+    margin-right: auto;
+    padding-left: 0%;
+    
+   
+  }
+  h5{
+    color:skyblue;
+  }
+  button{
+    color:black;
+    background-color:yellow;
+  }
+
+  main {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: lightblue;
+  }
+  
+  .card1 {
+    width: 300px;
+    background-color: plum;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .card1:hover {
+              transform: scale(1.05);
+          }
+          
+        @media screen and (max-width: 800px){
+          header{
+height: 60px;
+          }
+        }
+

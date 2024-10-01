@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="service.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> 
+    
+</head>
+<body style="margin: 0; padding-bottom: 100px;">
+<div>
+  <nav style="position: fixed;
+  top: 0px; background-color: rgb(231, 139, 185)">
+    <div class="container">
+      <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+      <a href="index.html"><h1><img src="Eventtrizlogo.png" alt=""></h1></a>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li class="dropdown">
+          <a href="service.html" class="dropbtn">Services</a>
+          <div class="dropdown-content">
+            <a href="#">Wedding</a>
+            <a href="#">Birthday</a>
+            <a href="#">Conferences</a>
+            <a href="#">Sporting events</a>
+          </div> 
+        </li>
+        <li><a href="vendor.html">Locations</a></li>
+        <li><a href="eblog.html">Blogs</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contactus.html">Contact Us</a></li>
+       
+      </ul>
+      <div>
+      </div>
+    </div>
+  </nav>
+
+
+    <div class="slideshow-container">
+        <div class="slides">
+          <div class="slide-container">
+            <img class="slide" src="https://images.pexels.com/photos/2060239/pexels-photo-2060239.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Slide 1" width="1000px" height="500px">
+            <div class="overlay">
+              <p class="text">WEDDING</p>
+            </div>
+          </div>
+          <div class="slide-container">
+            <img class="slide" src="https://images.pexels.com/photos/2091331/pexels-photo-2091331.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Slide 2"  width="1000px" height="500px">
+            <div class="overlay">
+              <p class="text">BABYSHOWER</p>
+            </div>
+          </div>
+          <div class="slide-container">
+            <img class="slide" src="https://images.pexels.com/photos/2116103/pexels-photo-2116103.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Slide 3"  width="1000px" height="500px">
+            <div class="overlay">
+              <p class="text">BIRTHDAY</p>
+            </div>
+          </div>
+        </div>
+        <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+        <a class="next" onclick="changeSlide(1)">&#10095;</a>
+      </div>
+
+      <div class="categories">
+        <h1>Pick Your Category</h1>
+      
+        <div class="catbox">
+          <img src="https://images.pexels.com/photos/15208390/pexels-photo-15208390/free-photo-of-a-bride-and-groom-holding-hands-and-holding-a-gold-ring.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1">
+          <div class="overlay1">
+            <h1>Weddings</h1>
+          </div>
+        </a>
+        </div>
+      
+        <div class="catbox">
+          <img src="https://images.pexels.com/photos/2072153/pexels-photo-2072153.jpeg?auto=compress&cs=tinysrgb&w=600">
+          <div class="overlay1">
+            <h1>Birthdays</h1>
+          </div>
+        </div>
+      
+        <div class="catbox">
+          <img src="https://images.pexels.com/photos/1264210/pexels-photo-1264210.jpeg?auto=compress&cs=tinysrgb&w=600">
+          <div class="overlay1">
+            <h1>Photoshoots</h2>
+          </div>
+        </div>
+      </div>
+
+    </div>
+      
+
+      
+     <script src="service.js"></script> 
+</body>
+</html>
